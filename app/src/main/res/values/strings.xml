@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ProyectoMedicos</string>
+    <string-array name="opciones_genero">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string-array name="opciones_medicina">
+        <item>Ginecología y obstetricia</item>
+        <item>Cardiología</item>
+        <item>Neurología</item>
+        <item>Medicina de emergencia</item>
+        <item>Medicina general</item>
+        <item>Dermatología</item>
+    </string-array>
+    <string name="home_title">Inicio</string>
+    <string name="home_regresar">Regresar</string>
+    <string name="home_cerrar_sesion">Cerrar Sesion</string>
+</resources>

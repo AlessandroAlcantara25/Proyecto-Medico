@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953878352610",
+    "project_id": "proyectomedicoslogin",
+    "storage_bucket": "proyectomedicoslogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953878352610:android:8f7a6e029dbf91cbd844bb",
+        "android_client_info": {
+          "package_name": "com.example.proyectomedicos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJfmVu10hqmNLQD4R3NKdtfi927oBTqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

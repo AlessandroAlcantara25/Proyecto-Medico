@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/home_title"
+        android:icon="@drawable/ic_home_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_regresar"
+        android:title="@string/home_regresar"
+        android:icon="@drawable/ic_back_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cerrar"
+        android:title="@string/home_cerrar_sesion"
+        android:icon="@drawable/ic_cerrar_sesion_menu"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="10dp"
+    android:viewportWidth="100"
+    android:viewportHeight="20">
+
+    <!-- Fondo negro -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M0,0 H100 V20 H0 Z" />
+
+    <!-- Líneas blancas -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="
+            M1,10 V20
+            M6,13 V20
+            M11,15 V20
+            M16,11 V20
+            M21,14 V20
+            M26,10 V20
+            M31,12 V20
+            M36,15 V20
+            M41,14 V20
+            M46,13 V20
+            M51,12 V20
+            M56,15 V20
+            M61,14 V20
+            M66,11 V20
+            M71,12 V20
+            M76,15 V20
+            M81,14 V20
+            M86,13 V20
+            M91,11 V20
+            M96,15 V20" />
+</vector>
+

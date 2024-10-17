@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backapp"
+    android:layout_height="match_parent"
+    tools:context=".MenuInicio">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/centromedico" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="207dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorTitle"
+            android:text="Centro Medico MAR DE BUENA AVENTURA"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btReceta"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/btnpaci"
+        android:drawableLeft="@drawable/ic_receta"
+        android:drawableRight="@drawable/ic_receta"
+        android:text="Agregar Receta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btbuscarReceta"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btnpaci"
+        android:drawableLeft="@drawable/ic_buscar_receta"
+        android:drawableRight="@drawable/ic_buscar_receta"
+        android:text="Buscar Receta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btReceta" />
+
+    <Button
+        android:id="@+id/btnActualizarRece"
+        android:layout_width="240dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btnpaci"
+        android:text="Actualizar Receta"
+        android:drawableLeft="@drawable/ic_edit"
+        android:drawableRight="@drawable/ic_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btbuscarReceta"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        android:background="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
